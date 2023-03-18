@@ -1,4 +1,8 @@
-<?php include("../config/_dbconnect.php"); ?>
+<?php 
+
+  include("../config/_dbconnect.php");
+  include("_login-check.php");
+ ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
   <head>
